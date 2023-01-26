@@ -88,10 +88,15 @@
   }
   
   .email-link:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
   
-
   .bg-color {
     background-color: var(--primary-color);
+  }
+
+  @media (max-width: 900px) {
+    .about-paragraphs {
+        display: none;
+    }
   }
