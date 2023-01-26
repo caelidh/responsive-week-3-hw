@@ -78,6 +78,10 @@
   .about-paragraphs p {
     margin: 10px;
   }
+
+  .contact-link {
+    color: white;
+  }
   
   .email-link {
     display: flex;
